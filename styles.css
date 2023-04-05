@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.day-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -220px;
+    margin-left: -220px;
+    border-radius: 2px;
+    box-shadow: -11px -11px 21px -7px #050116cc inset;
+-webkit-box-shadow: -11px -11px 21px -7px #050116cc inset;
+-moz-box-shadow: -11px -11px 21px -7px #050116cc inset;
+background: linear-gradient(to left, #014022,#84B09F,#E45545);
+font-family: 'Poppins',sans-serif;
+color: #fff;
+-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.frame {
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 10px 7px 22px 13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 7px 22px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 22px 13px rgba(0,0,0,0.75);
+background: linear-gradient(to left, #014022,#84B09F,#E45545);
+font-family: 'Poppins',sans-serif;
+color: #fff;
+-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50.8%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .number {
+    position: relative;
+    height: 120px;
+    width: 180px;}
+
+.one-one {
+position: absolute;
+z-index: 1;
+top: 0;
+left: -16px;
+height: 40px;
+width: 20px;
+background: #fff;
+border-radius: 6px;
+transform: rotate(50deg);
+box-shadow: 0 0 13px 0 #E45545 ;
+}
+
+.one-two {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    height: 100px;
+    width: 24px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 13px 0 #E45545 ;
+}
+
+.zero-one,.zero-two {
+position: absolute;
+z-index: 8;
+top: 0;
+left: 17;
+box-sizing: border-box;
+height: 100px;
+width: 100px;
+border: 24px solid #fff;
+border-radius: 45%;
+box-shadow: 0 0 13px 0 #E45545 ;
+}
+
+.zero-two {
+z-index: 6;
+left: 90px;
+}
+.zero-one {
+
+    left: 10px;
+    }
+    .big {
+        position: relative;
+        z-index: 20;
+        display: block;
+        font-size: 72px;
+        line-height: 70px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 6px;
+        box-shadow: 2px 6px 6px 0 #3b0904 ;
+      }
+      
+      .small {
+        position: relative;
+        z-index: 20;
+        display: block; 
+        font-size: 22px;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: .06em;
+        box-shadow: 2px 6px 6px 0 #3b0904 ;
+      }
